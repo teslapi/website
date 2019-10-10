@@ -1,4 +1,16 @@
 {{ define "main" }}
-  <h1 class="text-3xl text-center pb-12">Tesla PI</h1>
-  <p class="text-center">Coming to a center console near you soon!</p>
+<h1 class="text-3xl text-center pb-12">Tesla PI</h1>
+<p class="text-center text-lg">Coming to a center console near you soon!</p>
+<form class="mt-12 mx-auto text-center max-w-sm" netlify>
+  <div class="flex items-center border-b border-b-2 border-teal-500 py-2">
+    <input
+      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+      type="email" placeholder="Jane Doe" aria-label="Full name" name="email">
+    <button
+      class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+      type="button">
+      Get Notified
+    </button>
+  </div>
+</form>
 {{ end }}
